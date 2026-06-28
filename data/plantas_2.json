@@ -1,1102 +1,1582 @@
 [
   {
-    "id": 101,
-    "nombre_comun": "Verbena",
-    "nombre_cientifico": "Verbena officinalis",
-    "familia": "Verbenaceae",
-    "usos": ["nervioso", "hepático", "ansiolítico", "antifebril"],
-    "preparacion": "Infusión: 1 cucharadita de planta seca en 250ml. Tomar 2-3 veces al día.",
-    "contraindicaciones": "Evitar en embarazo (estimula el útero). Puede interferir con hormonas.",
-    "parte_usada": "partes aéreas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Verbena_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-288.jpg/800px-Verbena_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-288.jpg"
-  },
-  {
-    "id": 102,
-    "nombre_comun": "Pensamiento Silvestre",
-    "nombre_cientifico": "Viola tricolor",
-    "familia": "Violaceae",
-    "usos": ["piel", "eccema", "depurativo", "expectorante"],
-    "preparacion": "Infusión: 1-2 cucharaditas de flores y hojas en 250ml. Compresas externas.",
-    "contraindicaciones": "Generalmente seguro. Evitar en exceso durante embarazo.",
-    "parte_usada": "flores y hojas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Viola_tricolor_Hofn%C3%A4gelein.jpg/800px-Viola_tricolor_Hofn%C3%A4gelein.jpg"
-  },
-  {
-    "id": 103,
-    "nombre_comun": "Marrubio",
-    "nombre_cientifico": "Marrubium vulgare",
-    "familia": "Lamiaceae",
-    "usos": ["expectorante", "tos", "digestivo", "antiarrítmico"],
-    "preparacion": "Infusión: 1 cucharada de planta seca en 250ml. Jarabe con miel para tos.",
-    "contraindicaciones": "Evitar en embarazo. Puede ser hepatotóxico en dosis muy altas.",
-    "parte_usada": "partes aéreas",
-    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Marrubium_vulgare_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-086.jpg/800px-Marrubium_vulgare_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-086.jpg"
-  },
-  {
-    "id": 104,
+    "id": 100,
     "nombre_comun": "Angélica",
     "nombre_cientifico": "Angelica archangelica",
     "familia": "Apiaceae",
-    "usos": ["digestivo", "expectorante", "antiespasmódico", "circulatorio"],
+    "usos": [
+      "digestivo",
+      "expectorante",
+      "antiespasmódico",
+      "circulatorio"
+    ],
     "preparacion": "Infusión de raíz: 1 cucharadita en 250ml. Tintura: 20-30 gotas.",
     "contraindicaciones": "Fotosensibilizante. Evitar en embarazo y con anticoagulantes.",
     "parte_usada": "raíz y semillas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Angelica_archangelica_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-011.jpg/800px-Angelica_archangelica_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-011.jpg"
   },
   {
-    "id": 105,
+    "id": 101,
     "nombre_comun": "Anís Verde",
     "nombre_cientifico": "Pimpinella anisum",
     "familia": "Apiaceae",
-    "usos": ["digestivo", "carminativo", "expectorante", "galactogogo"],
+    "usos": [
+      "digestivo",
+      "carminativo",
+      "expectorante",
+      "galactogogo"
+    ],
     "preparacion": "Infusión: 1 cucharadita de semillas machacadas en 250ml.",
     "contraindicaciones": "Evitar en alergia a Apiaceae. Precaución en embarazo en dosis medicinales.",
     "parte_usada": "frutos (semillas)",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Pimpinella_anisum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-106.jpg/800px-Pimpinella_anisum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-106.jpg"
   },
   {
-    "id": 106,
+    "id": 102,
     "nombre_comun": "Cilantro",
     "nombre_cientifico": "Coriandrum sativum",
     "familia": "Apiaceae",
-    "usos": ["digestivo", "carminativo", "quelante de metales", "ansiolítico"],
+    "usos": [
+      "digestivo",
+      "carminativo",
+      "quelante de metales",
+      "ansiolítico"
+    ],
     "preparacion": "Semillas en infusión. Hojas frescas en alimentos. Tintura de semillas.",
     "contraindicaciones": "Alergia posible en familia Apiaceae. Evitar en exceso durante embarazo.",
     "parte_usada": "semillas y hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-182.jpg/800px-Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-182.jpg"
   },
   {
-    "id": 107,
+    "id": 103,
     "nombre_comun": "Comino",
     "nombre_cientifico": "Cuminum cyminum",
     "familia": "Apiaceae",
-    "usos": ["digestivo", "carminativo", "antiespasmódico", "galactogogo"],
+    "usos": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "galactogogo"
+    ],
     "preparacion": "Infusión de semillas: 1 cucharadita en 250ml. En cocina como especia.",
     "contraindicaciones": "Generalmente seguro. Evitar en dosis medicinales en embarazo.",
     "parte_usada": "semillas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Cuminum_cyminum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-183.jpg/800px-Cuminum_cyminum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-183.jpg"
   },
   {
-    "id": 108,
+    "id": 104,
     "nombre_comun": "Perejil",
     "nombre_cientifico": "Petroselinum crispum",
     "familia": "Apiaceae",
-    "usos": ["diurético", "digestivo", "antiinflamatorio", "aliento fresco"],
+    "usos": [
+      "diurético",
+      "digestivo",
+      "antiinflamatorio",
+      "aliento fresco"
+    ],
     "preparacion": "Infusión de hojas o raíz: 1 cucharada en 250ml. Masticar hojas frescas.",
     "contraindicaciones": "Evitar en embarazo y enfermedad renal. Aceite esencial tóxico.",
     "parte_usada": "hojas y raíz",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Petroselinum_crispum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-104.jpg/800px-Petroselinum_crispum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-104.jpg"
   },
   {
-    "id": 109,
+    "id": 105,
     "nombre_comun": "Apio",
     "nombre_cientifico": "Apium graveolens",
     "familia": "Apiaceae",
-    "usos": ["diurético", "hipotensor", "antiinflamatorio", "digestivo"],
+    "usos": [
+      "diurético",
+      "hipotensor",
+      "antiinflamatorio",
+      "digestivo"
+    ],
     "preparacion": "Jugo fresco: 1 tallo en licuadora. Semillas en infusión. Cápsulas de extracto.",
     "contraindicaciones": "Fotosensibilizante. Evitar en embarazo en dosis medicinales y en insuficiencia renal.",
     "parte_usada": "tallos, semillas y raíz",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Apium_graveolens_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-013.jpg/800px-Apium_graveolens_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-013.jpg"
   },
   {
-    "id": 110,
+    "id": 106,
     "nombre_comun": "Zanahoria",
     "nombre_cientifico": "Daucus carota",
     "familia": "Apiaceae",
-    "usos": ["nutritivo", "antioxidante", "digestivo", "visión"],
+    "usos": [
+      "nutritivo",
+      "antioxidante",
+      "digestivo",
+      "visión"
+    ],
     "preparacion": "Jugo fresco. Semillas en infusión. Raíz cocida o cruda.",
     "contraindicaciones": "Semillas medicinales: evitar en embarazo. Beta-caroteno en exceso puede colorear la piel.",
     "parte_usada": "raíz, semillas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Daucus_carota_subsp._sativus.jpg/800px-Daucus_carota_subsp._sativus.jpg"
   },
   {
-    "id": 111,
+    "id": 107,
     "nombre_comun": "Bardana Mayor",
     "nombre_cientifico": "Arctium lappa",
     "familia": "Asteraceae",
-    "usos": ["depurativo", "piel acneica", "antibacteriano", "hepático"],
+    "usos": [
+      "depurativo",
+      "piel acneica",
+      "antibacteriano",
+      "hepático"
+    ],
     "preparacion": "Decocción de raíz: 2 cucharadas en 500ml hervir 15 min. Tintura.",
     "contraindicaciones": "Evitar en embarazo. Puede interactuar con anticoagulantes.",
     "parte_usada": "raíz",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Arctium_lappa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-170.jpg/800px-Arctium_lappa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-170.jpg"
   },
   {
-    "id": 112,
+    "id": 108,
     "nombre_comun": "Gordolobo Mexicano",
     "nombre_cientifico": "Gnaphalium americanum",
     "familia": "Asteraceae",
-    "usos": ["expectorante", "tos", "bronquitis", "antiinflamatorio"],
+    "usos": [
+      "expectorante",
+      "tos",
+      "bronquitis",
+      "antiinflamatorio"
+    ],
     "preparacion": "Infusión: 1 cucharada de planta en 250ml. 3 tazas al día.",
     "contraindicaciones": "Alergia en Asteraceae. Evitar en embarazo.",
     "parte_usada": "partes aéreas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Gnaphalium_americanum.jpg/800px-Gnaphalium_americanum.jpg"
   },
   {
-    "id": 113,
+    "id": 109,
     "nombre_comun": "Berro",
     "nombre_cientifico": "Nasturtium officinale",
     "familia": "Brassicaceae",
-    "usos": ["expectorante", "diurético", "digestivo", "nutritivo"],
+    "usos": [
+      "expectorante",
+      "diurético",
+      "digestivo",
+      "nutritivo"
+    ],
     "preparacion": "Hojas frescas en ensalada. Jugo: licuar hojas con agua. Infusión ligera.",
     "contraindicaciones": "Evitar en hipotiroidismo en exceso. No consumir silvestre sin lavar (parásitos).",
     "parte_usada": "hojas y tallos",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nasturtium_officinale_R_Br.jpg/800px-Nasturtium_officinale_R_Br.jpg"
   },
   {
-    "id": 114,
+    "id": 110,
     "nombre_comun": "Rábano Negro",
     "nombre_cientifico": "Raphanus sativus var. niger",
     "familia": "Brassicaceae",
-    "usos": ["hepático", "colerético", "digestivo", "expectorante"],
+    "usos": [
+      "hepático",
+      "colerético",
+      "digestivo",
+      "expectorante"
+    ],
     "preparacion": "Jugo: rallado con miel. Jarabe: jugo con azúcar para tos.",
     "contraindicaciones": "Evitar en cálculos biliares activos y úlcera. Precaución en hipotiroidismo.",
     "parte_usada": "raíz",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Radishes_with_leaves.jpg/800px-Radishes_with_leaves.jpg"
   },
   {
-    "id": 115,
+    "id": 111,
     "nombre_comun": "Col Rizada",
     "nombre_cientifico": "Brassica oleracea var. sabellica",
     "familia": "Brassicaceae",
-    "usos": ["antiulceroso", "antiinflamatorio", "nutritivo", "antioxidante"],
+    "usos": [
+      "antiulceroso",
+      "antiinflamatorio",
+      "nutritivo",
+      "antioxidante"
+    ],
     "preparacion": "Jugo fresco: hojas licuadas. Hojas cocidas al vapor.",
     "contraindicaciones": "Precaución en hipotiroidismo en exceso. Puede interferir con anticoagulantes.",
     "parte_usada": "hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Kale-leaves.jpg/800px-Kale-leaves.jpg"
   },
   {
-    "id": 116,
+    "id": 112,
     "nombre_comun": "Espino Negro",
     "nombre_cientifico": "Rhamnus catharticus",
     "familia": "Rhamnaceae",
-    "usos": ["laxante", "estreñimiento crónico", "depurativo"],
+    "usos": [
+      "laxante",
+      "estreñimiento crónico",
+      "depurativo"
+    ],
     "preparacion": "Decocción de corteza: pequeña cantidad. Solo bajo supervisión.",
     "contraindicaciones": "Laxante potente. Evitar en embarazo, lactancia e inflamación intestinal.",
     "parte_usada": "corteza y frutos",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Rhamnus_cathartica.jpg/800px-Rhamnus_cathartica.jpg"
   },
   {
-    "id": 117,
+    "id": 113,
     "nombre_comun": "Rusco",
     "nombre_cientifico": "Ruscus aculeatus",
     "familia": "Asparagaceae",
-    "usos": ["venoso", "varices", "hemorroides", "circulación"],
+    "usos": [
+      "venoso",
+      "varices",
+      "hemorroides",
+      "circulación"
+    ],
     "preparacion": "Extracto: 150-300mg de ruscogeninas al día. Decocción de rizoma.",
     "contraindicaciones": "Evitar en hipertensión sin control. Precaución en embarazo.",
     "parte_usada": "rizoma",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ruscus_aculeatus_-_fruits.jpg/800px-Ruscus_aculeatus_-_fruits.jpg"
   },
   {
-    "id": 118,
+    "id": 114,
     "nombre_comun": "Hamamelis",
     "nombre_cientifico": "Hamamelis virginiana",
     "familia": "Hamamelidaceae",
-    "usos": ["astringente", "varices", "hemorroides", "piel inflamada"],
+    "usos": [
+      "astringente",
+      "varices",
+      "hemorroides",
+      "piel inflamada"
+    ],
     "preparacion": "Agua de hamamelis tópica. Compresas con infusión. Crema.",
     "contraindicaciones": "Uso externo principalmente. Evitar en piel muy seca o sensible.",
     "parte_usada": "hojas y corteza",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Hamamelis_virginiana1.jpg/800px-Hamamelis_virginiana1.jpg"
   },
   {
-    "id": 119,
+    "id": 115,
     "nombre_comun": "Fresno",
     "nombre_cientifico": "Fraxinus excelsior",
     "familia": "Oleaceae",
-    "usos": ["antiinflamatorio", "artritis", "diurético", "laxante suave"],
+    "usos": [
+      "antiinflamatorio",
+      "artritis",
+      "diurético",
+      "laxante suave"
+    ],
     "preparacion": "Infusión de hojas: 2 cucharaditas en 250ml. 2-3 tazas al día.",
     "contraindicaciones": "Evitar en insuficiencia renal. Puede causar alergia.",
     "parte_usada": "hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Fraxinus_excelsior_leaves.jpg/800px-Fraxinus_excelsior_leaves.jpg"
   },
   {
-    "id": 120,
+    "id": 116,
     "nombre_comun": "Vid Roja",
     "nombre_cientifico": "Vitis vinifera",
     "familia": "Vitaceae",
-    "usos": ["venoso", "antioxidante", "varices", "antiinflamatorio"],
+    "usos": [
+      "venoso",
+      "antioxidante",
+      "varices",
+      "antiinflamatorio"
+    ],
     "preparacion": "Extracto de semilla: 100-300mg al día. Infusión de hojas rojas.",
     "contraindicaciones": "Precaución con anticoagulantes. Generalmente bien tolerado.",
     "parte_usada": "hojas, semillas y piel del fruto",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Wine_grapes07.jpg/800px-Wine_grapes07.jpg"
   },
   {
-    "id": 121,
+    "id": 117,
     "nombre_comun": "Frambueso",
     "nombre_cientifico": "Rubus idaeus",
     "familia": "Rosaceae",
-    "usos": ["tónico uterino", "dismenorrea", "parto", "digestivo"],
+    "usos": [
+      "tónico uterino",
+      "dismenorrea",
+      "parto",
+      "digestivo"
+    ],
     "preparacion": "Infusión de hojas: 1-2 cucharaditas en 250ml. 2-3 tazas al día.",
     "contraindicaciones": "Evitar en el primer trimestre del embarazo. Consultar en caso de riesgo de parto prematuro.",
     "parte_usada": "hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Raspberry_-_whole_%28Rubus_idaeus%29.jpg/800px-Raspberry_-_whole_%28Rubus_idaeus%29.jpg"
   },
   {
-    "id": 122,
+    "id": 118,
     "nombre_comun": "Zarzamora",
     "nombre_cientifico": "Rubus fruticosus",
     "familia": "Rosaceae",
-    "usos": ["astringente", "diarrea", "garganta", "antioxidante"],
+    "usos": [
+      "astringente",
+      "diarrea",
+      "garganta",
+      "antioxidante"
+    ],
     "preparacion": "Infusión de hojas: 2 cucharaditas en 250ml. Gargarismos. Frutos frescos.",
     "contraindicaciones": "Generalmente seguro. Evitar en estreñimiento.",
     "parte_usada": "hojas y frutos",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Blackberry_arp_lores.jpg/800px-Blackberry_arp_lores.jpg"
   },
   {
-    "id": 123,
+    "id": 119,
     "nombre_comun": "Arándano",
     "nombre_cientifico": "Vaccinium myrtillus",
     "familia": "Ericaceae",
-    "usos": ["visión", "antioxidante", "infecciones urinarias", "digestivo"],
+    "usos": [
+      "visión",
+      "antioxidante",
+      "infecciones urinarias",
+      "digestivo"
+    ],
     "preparacion": "Frutos frescos o secos. Extracto: 80-160mg de antocianinas al día.",
     "contraindicaciones": "Precaución con anticoagulantes en extractos concentrados.",
     "parte_usada": "frutos y hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Blueberries_Vaccinium_myrtillus.jpg/800px-Blueberries_Vaccinium_myrtillus.jpg"
   },
   {
-    "id": 124,
+    "id": 120,
     "nombre_comun": "Arándano Rojo",
     "nombre_cientifico": "Vaccinium macrocarpon",
     "familia": "Ericaceae",
-    "usos": ["infecciones urinarias", "antioxidante", "antiadhesivo bacteriano", "digestivo"],
+    "usos": [
+      "infecciones urinarias",
+      "antioxidante",
+      "antiadhesivo bacteriano",
+      "digestivo"
+    ],
     "preparacion": "Jugo sin azúcar: 300ml al día. Extracto en cápsulas: 400mg al día.",
     "contraindicaciones": "Precaución con warfarina. No sustituye tratamiento antibiótico en infección activa.",
     "parte_usada": "frutos",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cranberries.jpg/800px-Cranberries.jpg"
   },
   {
-    "id": 125,
+    "id": 121,
     "nombre_comun": "Gayuba",
     "nombre_cientifico": "Arctostaphylos uva-ursi",
     "familia": "Ericaceae",
-    "usos": ["antiséptico urinario", "cistitis", "diurético", "astringente"],
+    "usos": [
+      "antiséptico urinario",
+      "cistitis",
+      "diurético",
+      "astringente"
+    ],
     "preparacion": "Infusión fría: macerar 2 cucharaditas en 250ml agua fría 12 horas.",
     "contraindicaciones": "No usar más de 2 semanas. Evitar en embarazo, lactancia y menores de 12 años.",
     "parte_usada": "hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Arctostaphylos_uva-ursi_-_bearberry.jpg/800px-Arctostaphylos_uva-ursi_-_bearberry.jpg"
   },
   {
-    "id": 126,
+    "id": 122,
     "nombre_comun": "Brezo",
     "nombre_cientifico": "Calluna vulgaris",
     "familia": "Ericaceae",
-    "usos": ["antiséptico urinario", "diurético", "antiinflamatorio", "gota"],
+    "usos": [
+      "antiséptico urinario",
+      "diurético",
+      "antiinflamatorio",
+      "gota"
+    ],
     "preparacion": "Infusión: 2 cucharaditas de flores en 250ml. 2-3 tazas al día.",
     "contraindicaciones": "Evitar en insuficiencia renal grave. Generalmente bien tolerado.",
     "parte_usada": "flores y partes aéreas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Calluna_vulgaris_flowers.jpg/800px-Calluna_vulgaris_flowers.jpg"
   },
   {
-    "id": 127,
+    "id": 123,
     "nombre_comun": "Madroño",
     "nombre_cientifico": "Arbutus unedo",
     "familia": "Ericaceae",
-    "usos": ["antiséptico urinario", "diurético", "antidiarreico", "astringente"],
+    "usos": [
+      "antiséptico urinario",
+      "diurético",
+      "antidiarreico",
+      "astringente"
+    ],
     "preparacion": "Infusión de hojas: 1 cucharadita en 250ml. Frutos en pequeñas cantidades.",
     "contraindicaciones": "Los frutos en exceso pueden causar embriaguez leve. Evitar en embarazo.",
     "parte_usada": "hojas y frutos",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Arbutus_unedo_fruits.jpg/800px-Arbutus_unedo_fruits.jpg"
   },
   {
-    "id": 128,
+    "id": 124,
     "nombre_comun": "Olivo",
     "nombre_cientifico": "Olea europaea",
     "familia": "Oleaceae",
-    "usos": ["hipotensor", "antidiabético", "antioxidante", "hepático"],
+    "usos": [
+      "hipotensor",
+      "antidiabético",
+      "antioxidante",
+      "hepático"
+    ],
     "preparacion": "Infusión de hojas: 2 cucharaditas en 250ml. Aceite de oliva virgen extra.",
     "contraindicaciones": "Puede potenciar antihipertensivos y antidiabéticos. Monitorear presión y glucosa.",
     "parte_usada": "hojas y aceite del fruto",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Olive_oil_from_Oneglia.jpg/800px-Olive_oil_from_Oneglia.jpg"
   },
   {
-    "id": 129,
+    "id": 125,
     "nombre_comun": "Ulmaria",
     "nombre_cientifico": "Filipendula ulmaria",
     "familia": "Rosaceae",
-    "usos": ["antiinflamatorio", "gastroprotector", "analgésico", "diurético"],
+    "usos": [
+      "antiinflamatorio",
+      "gastroprotector",
+      "analgésico",
+      "diurético"
+    ],
     "preparacion": "Infusión: 2 cucharaditas de flores en 250ml. No hervir (destruye activos).",
     "contraindicaciones": "Contiene salicilatos: evitar en alergia a aspirina y en niños con fiebre.",
     "parte_usada": "flores y hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Filipendula_ulmaria_flowers.jpg/800px-Filipendula_ulmaria_flowers.jpg"
   },
   {
-    "id": 130,
+    "id": 126,
     "nombre_comun": "Celidonia",
     "nombre_cientifico": "Chelidonium majus",
     "familia": "Papaveraceae",
-    "usos": ["verrugas", "hepático", "antiespasmódico", "antibacteriano"],
+    "usos": [
+      "verrugas",
+      "hepático",
+      "antiespasmódico",
+      "antibacteriano"
+    ],
     "preparacion": "Látex fresco en verrugas. Tintura muy diluida bajo supervisión médica.",
     "contraindicaciones": "Hepatotóxico en dosis altas. Solo tópico del látex. Supervisión médica para uso interno.",
     "parte_usada": "látex y partes aéreas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Chelidonium_majus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-029.jpg/800px-Chelidonium_majus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-029.jpg"
   },
   {
-    "id": 131,
+    "id": 127,
     "nombre_comun": "Amapola de California",
     "nombre_cientifico": "Eschscholzia californica",
     "familia": "Papaveraceae",
-    "usos": ["sedante suave", "ansiolítico", "insomnio", "dolor leve"],
+    "usos": [
+      "sedante suave",
+      "ansiolítico",
+      "insomnio",
+      "dolor leve"
+    ],
     "preparacion": "Infusión: 1-2 cucharaditas de planta seca en 250ml. Tintura: 1-4ml.",
     "contraindicaciones": "Evitar con sedantes. No confundir con adormidera. Evitar en embarazo.",
     "parte_usada": "partes aéreas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Eschscholzia_californica.jpg/800px-Eschscholzia_californica.jpg"
   },
   {
-    "id": 132,
+    "id": 128,
     "nombre_comun": "Adormidera",
     "nombre_cientifico": "Papaver somniferum",
     "familia": "Papaveraceae",
-    "usos": ["semillas nutritivas", "aceite de semilla", "uso culinario"],
+    "usos": [
+      "semillas nutritivas",
+      "aceite de semilla",
+      "uso culinario"
+    ],
     "preparacion": "Semillas en repostería. Aceite de semilla de uso culinario.",
     "contraindicaciones": "La planta entera es controlada por ley. Solo semillas y aceite permitidos en alimentos.",
     "parte_usada": "semillas (uso culinario)",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Papaver_somniferum_2.jpg/800px-Papaver_somniferum_2.jpg"
   },
   {
-    "id": 133,
+    "id": 129,
     "nombre_comun": "Árbol del Noni",
     "nombre_cientifico": "Morinda citrifolia",
     "familia": "Rubiaceae",
-    "usos": ["antioxidante", "inmunoestimulante", "antiinflamatorio", "energizante"],
+    "usos": [
+      "antioxidante",
+      "inmunoestimulante",
+      "antiinflamatorio",
+      "energizante"
+    ],
     "preparacion": "Jugo de fruto: 30-90ml al día. Cápsulas de extracto.",
     "contraindicaciones": "Alto en potasio: evitar en enfermedad renal. Precaución con anticoagulantes.",
     "parte_usada": "fruto y hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Noni_Fruit_Morinda_citrifolia.jpg/800px-Noni_Fruit_Morinda_citrifolia.jpg"
   },
   {
-    "id": 134,
+    "id": 130,
     "nombre_comun": "Papaya",
     "nombre_cientifico": "Carica papaya",
     "familia": "Caricaceae",
-    "usos": ["digestivo", "antiparasitario", "antiinflamatorio", "cicatrizante"],
+    "usos": [
+      "digestivo",
+      "antiparasitario",
+      "antiinflamatorio",
+      "cicatrizante"
+    ],
     "preparacion": "Fruta fresca en ayunas. Semillas: 1 cucharadita al día. Hojas en infusión.",
     "contraindicaciones": "Semillas en exceso pueden ser tóxicas. Látex puede causar contracciones en embarazo.",
     "parte_usada": "fruto, semillas y hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Papaya_cross_section_BNC.jpg/800px-Papaya_cross_section_BNC.jpg"
   },
   {
-    "id": 135,
+    "id": 131,
     "nombre_comun": "Piña",
     "nombre_cientifico": "Ananas comosus",
     "familia": "Bromeliaceae",
-    "usos": ["digestivo", "antiinflamatorio", "bromelina", "drenaje linfático"],
+    "usos": [
+      "digestivo",
+      "antiinflamatorio",
+      "bromelina",
+      "drenaje linfático"
+    ],
     "preparacion": "Fruta fresca. Extracto de bromelina: 500mg entre comidas.",
     "contraindicaciones": "Puede potenciar anticoagulantes. Evitar bromeína en exceso en embarazo.",
     "parte_usada": "fruto y tallo",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hapus_Mango.jpg/800px-Hapus_Mango.jpg"
   },
   {
-    "id": 136,
+    "id": 132,
     "nombre_comun": "Mango",
     "nombre_cientifico": "Mangifera indica",
     "familia": "Anacardiaceae",
-    "usos": ["antioxidante", "digestivo", "antiinflamatorio", "antidiabético"],
+    "usos": [
+      "antioxidante",
+      "digestivo",
+      "antiinflamatorio",
+      "antidiabético"
+    ],
     "preparacion": "Fruta fresca. Hojas en infusión: 2-3 hojas en 250ml. Corteza en decocción.",
     "contraindicaciones": "Alergia posible en familia Anacardiaceae. Hojas en exceso: monitorear glucosa.",
     "parte_usada": "fruto, hojas y corteza",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Mango_Mangifera_indica.jpg/800px-Mango_Mangifera_indica.jpg"
   },
   {
-    "id": 137,
+    "id": 133,
     "nombre_comun": "Granadilla",
     "nombre_cientifico": "Passiflora edulis",
     "familia": "Passifloraceae",
-    "usos": ["ansiolítico", "insomnio", "digestivo", "hipotensor"],
+    "usos": [
+      "ansiolítico",
+      "insomnio",
+      "digestivo",
+      "hipotensor"
+    ],
     "preparacion": "Jugo del fruto. Infusión de hojas: 2-3 hojas en 250ml.",
     "contraindicaciones": "Puede potenciar sedantes. Evitar en embarazo en dosis medicinales.",
     "parte_usada": "fruto y hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Passiflora_edulis.jpg/800px-Passiflora_edulis.jpg"
   },
   {
-    "id": 138,
+    "id": 134,
     "nombre_comun": "Tamarindo",
     "nombre_cientifico": "Tamarindus indica",
     "familia": "Fabaceae",
-    "usos": ["laxante suave", "digestivo", "antioxidante", "antifebril"],
+    "usos": [
+      "laxante suave",
+      "digestivo",
+      "antioxidante",
+      "antifebril"
+    ],
     "preparacion": "Pulpa en agua: laxante natural. Bebida refrescante.",
     "contraindicaciones": "Puede potenciar aspirina e ibuprofeno. Laxante suave.",
     "parte_usada": "pulpa del fruto",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tamarind_-_Tamarindus_indica.jpg/800px-Tamarind_-_Tamarindus_indica.jpg"
   },
   {
-    "id": 139,
+    "id": 135,
     "nombre_comun": "Guayaba",
     "nombre_cientifico": "Psidium guajava",
     "familia": "Myrtaceae",
-    "usos": ["antidiarreico", "vitamina C", "antioxidante", "antidiabético"],
+    "usos": [
+      "antidiarreico",
+      "vitamina C",
+      "antioxidante",
+      "antidiabético"
+    ],
     "preparacion": "Fruta fresca. Hojas en infusión: 4-5 hojas en 500ml. Té de hojas para diarrea.",
     "contraindicaciones": "Semillas en exceso pueden causar estreñimiento. Monitorear glucosa.",
     "parte_usada": "fruto y hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Guava_ID.jpg/800px-Guava_ID.jpg"
   },
   {
-    "id": 140,
+    "id": 136,
     "nombre_comun": "Coco",
     "nombre_cientifico": "Cocos nucifera",
     "familia": "Arecaceae",
-    "usos": ["electrolitos", "antimicrobiano", "digestivo", "hidratante"],
+    "usos": [
+      "electrolitos",
+      "antimicrobiano",
+      "digestivo",
+      "hidratante"
+    ],
     "preparacion": "Agua de coco fresca. Aceite virgen: 1-2 cucharadas al día.",
     "contraindicaciones": "Alto en grasas saturadas: moderación en cardiopatías. El agua es segura.",
     "parte_usada": "agua, pulpa y aceite",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Coconut_on_white_background.jpg/800px-Coconut_on_white_background.jpg"
   },
   {
-    "id": 141,
+    "id": 137,
     "nombre_comun": "Aguacate",
     "nombre_cientifico": "Persea americana",
     "familia": "Lauraceae",
-    "usos": ["nutritivo", "cardiovascular", "antiinflamatorio", "piel"],
+    "usos": [
+      "nutritivo",
+      "cardiovascular",
+      "antiinflamatorio",
+      "piel"
+    ],
     "preparacion": "Fruta fresca. Hueso en infusión para digestión (uso tradicional moderado).",
     "contraindicaciones": "Hojas tóxicas para animales. Hueso en exceso: toxicidad. Fruto seguro.",
     "parte_usada": "fruto y hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hapus_Mango.jpg/800px-Hapus_Mango.jpg"
   },
   {
-    "id": 142,
+    "id": 138,
     "nombre_comun": "Limón",
     "nombre_cientifico": "Citrus limon",
     "familia": "Rutaceae",
-    "usos": ["vitamina C", "inmunoestimulante", "digestivo", "alcalinizante"],
+    "usos": [
+      "vitamina C",
+      "inmunoestimulante",
+      "digestivo",
+      "alcalinizante"
+    ],
     "preparacion": "Jugo fresco en agua tibia. Cascara en infusión. Aromaterapia con aceite esencial.",
     "contraindicaciones": "El jugo puede erosionar el esmalte dental. Fotosensibilizante el aceite esencial.",
     "parte_usada": "fruto y cáscara",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lemon_-_whole_and_slice.jpg/800px-Lemon_-_whole_and_slice.jpg"
   },
   {
-    "id": 143,
+    "id": 139,
     "nombre_comun": "Naranja Amarga",
     "nombre_cientifico": "Citrus aurantium",
     "familia": "Rutaceae",
-    "usos": ["digestivo", "ansiolítico", "ansiedad", "pérdida de peso"],
+    "usos": [
+      "digestivo",
+      "ansiolítico",
+      "ansiedad",
+      "pérdida de peso"
+    ],
     "preparacion": "Infusión de flores (azahar): 1 cucharadita en 250ml. Extracto de cáscara.",
     "contraindicaciones": "Sinefrina en cáscara: precaución en hipertensión y cardiopatías.",
     "parte_usada": "flores, cáscara y fruto",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Citrus_aurantium.jpg/800px-Citrus_aurantium.jpg"
   },
   {
-    "id": 144,
+    "id": 140,
     "nombre_comun": "Toronja",
     "nombre_cientifico": "Citrus paradisi",
     "familia": "Rutaceae",
-    "usos": ["antioxidante", "vitamina C", "pérdida de peso", "digestivo"],
+    "usos": [
+      "antioxidante",
+      "vitamina C",
+      "pérdida de peso",
+      "digestivo"
+    ],
     "preparacion": "Fruta fresca. Extracto de semilla (GSE) como antimicrobiano.",
     "contraindicaciones": "Interacciones graves con muchos medicamentos (inhibe CYP3A4). Consultar siempre.",
     "parte_usada": "fruto y semillas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Grapefruit_DSC00309.jpg/800px-Grapefruit_DSC00309.jpg"
   },
   {
-    "id": 145,
+    "id": 141,
     "nombre_comun": "Bergamota",
     "nombre_cientifico": "Citrus bergamia",
     "familia": "Rutaceae",
-    "usos": ["ansiolítico", "colesterol", "digestivo", "aromaterapia"],
+    "usos": [
+      "ansiolítico",
+      "colesterol",
+      "digestivo",
+      "aromaterapia"
+    ],
     "preparacion": "Aceite esencial en difusor. Té Earl Grey (con bergamota). Extracto oral.",
     "contraindicaciones": "Aceite esencial fotosensibilizante. Puede interactuar con estatinas.",
     "parte_usada": "cáscara (aceite esencial)",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Bergamot_orange.jpg/800px-Bergamot_orange.jpg"
   },
   {
-    "id": 146,
+    "id": 142,
     "nombre_comun": "Incienso",
     "nombre_cientifico": "Boswellia sacra",
     "familia": "Burseraceae",
-    "usos": ["antiinflamatorio", "meditación", "antibacteriano", "ansiolítico"],
+    "usos": [
+      "antiinflamatorio",
+      "meditación",
+      "antibacteriano",
+      "ansiolítico"
+    ],
     "preparacion": "Resina en incensario. Aceite esencial en difusor. Extracto oral.",
     "contraindicaciones": "Evitar aceite esencial por vía interna. Puede interactuar con antiinflamatorios.",
     "parte_usada": "resina",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Boswellia_sacra_Oman.jpg/800px-Boswellia_sacra_Oman.jpg"
   },
   {
-    "id": 147,
+    "id": 143,
     "nombre_comun": "Mirra",
     "nombre_cientifico": "Commiphora myrrha",
     "familia": "Burseraceae",
-    "usos": ["antiséptico bucal", "antiinflamatorio", "cicatrizante", "expectorante"],
+    "usos": [
+      "antiséptico bucal",
+      "antiinflamatorio",
+      "cicatrizante",
+      "expectorante"
+    ],
     "preparacion": "Tintura: 5-10 gotas diluidas para enjuague bucal. Resina en infusión.",
     "contraindicaciones": "Evitar en embarazo. Puede interactuar con antidiabéticos.",
     "parte_usada": "resina",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Commiphora_myrrha.jpg/800px-Commiphora_myrrha.jpg"
   },
   {
-    "id": 148,
+    "id": 144,
     "nombre_comun": "Sándalo",
     "nombre_cientifico": "Santalum album",
     "familia": "Santalaceae",
-    "usos": ["antiséptico urinario", "ansiolítico", "aromaterapia", "piel"],
+    "usos": [
+      "antiséptico urinario",
+      "ansiolítico",
+      "aromaterapia",
+      "piel"
+    ],
     "preparacion": "Aceite esencial en difusor o diluido al 2% para masajes. Polvo en pasta.",
     "contraindicaciones": "Evitar aceite esencial puro en piel. Precaución en insuficiencia renal.",
     "parte_usada": "madera y aceite",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Sandalwood_chip.jpg/800px-Sandalwood_chip.jpg"
   },
   {
-    "id": 149,
+    "id": 145,
     "nombre_comun": "Eucalipto",
     "nombre_cientifico": "Eucalyptus globulus",
     "familia": "Myrtaceae",
-    "usos": ["expectorante", "antiséptico respiratorio", "descongestionante", "antifúngico"],
+    "usos": [
+      "expectorante",
+      "antiséptico respiratorio",
+      "descongestionante",
+      "antifúngico"
+    ],
     "preparacion": "Inhalación de vapor con hojas. Aceite esencial diluido en tórax. Infusión de hojas.",
     "contraindicaciones": "No usar aceite esencial en niños menores de 6 años. Tóxico si se ingiere puro.",
     "parte_usada": "hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Eucalyptus_globulus_-_leaves.jpg/800px-Eucalyptus_globulus_-_leaves.jpg"
   },
   {
-    "id": 150,
+    "id": 146,
     "nombre_comun": "Mirto",
     "nombre_cientifico": "Myrtus communis",
     "familia": "Myrtaceae",
-    "usos": ["antiséptico", "expectorante", "antidiarreico", "antiinflamatorio"],
+    "usos": [
+      "antiséptico",
+      "expectorante",
+      "antidiarreico",
+      "antiinflamatorio"
+    ],
     "preparacion": "Infusión de hojas: 1 cucharadita en 250ml. Aceite esencial diluido.",
     "contraindicaciones": "Aceite esencial: no usar en niños ni internamente. Evitar en embarazo.",
     "parte_usada": "hojas y frutos",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Myrtus_communis_flowers.jpg/800px-Myrtus_communis_flowers.jpg"
   },
   {
-    "id": 151,
+    "id": 147,
     "nombre_comun": "Pimienta de Jamaica",
     "nombre_cientifico": "Pimenta dioica",
     "familia": "Myrtaceae",
-    "usos": ["digestivo", "analgésico", "carminativo", "antioxidante"],
+    "usos": [
+      "digestivo",
+      "analgésico",
+      "carminativo",
+      "antioxidante"
+    ],
     "preparacion": "Infusión: 1 cucharadita de bayas molidas en 250ml.",
     "contraindicaciones": "Aceite esencial irritante en mucosas. Evitar en úlcera activa.",
     "parte_usada": "frutos",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Pimenta_dioica.jpg/800px-Pimenta_dioica.jpg"
   },
   {
-    "id": 152,
+    "id": 148,
     "nombre_comun": "Cardamomo",
     "nombre_cientifico": "Elettaria cardamomum",
     "familia": "Zingiberaceae",
-    "usos": ["digestivo", "carminativo", "aliento", "antiespasmódico"],
+    "usos": [
+      "digestivo",
+      "carminativo",
+      "aliento",
+      "antiespasmódico"
+    ],
     "preparacion": "Infusión de semillas: 3-4 cápsulas en 250ml. En cocina como especia.",
     "contraindicaciones": "Generalmente seguro. Aceite esencial en dosis altas puede irritar.",
     "parte_usada": "semillas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Elettaria_cardamomum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-038.jpg/800px-Elettaria_cardamomum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-038.jpg"
   },
   {
-    "id": 153,
+    "id": 149,
     "nombre_comun": "Galanga",
     "nombre_cientifico": "Alpinia galanga",
     "familia": "Zingiberaceae",
-    "usos": ["digestivo", "antiinflamatorio", "antimicrobiano", "circulatorio"],
+    "usos": [
+      "digestivo",
+      "antiinflamatorio",
+      "antimicrobiano",
+      "circulatorio"
+    ],
     "preparacion": "Infusión de raíz: rodajas frescas en agua caliente. En cocina asiática.",
     "contraindicaciones": "Evitar en altas dosis durante embarazo.",
     "parte_usada": "rizoma",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Alpinia_galanga.jpg/800px-Alpinia_galanga.jpg"
   },
   {
-    "id": 154,
+    "id": 150,
     "nombre_comun": "Lemongrass",
     "nombre_cientifico": "Cymbopogon citratus",
     "familia": "Poaceae",
-    "usos": ["digestivo", "ansiolítico", "antifúngico", "analgésico"],
+    "usos": [
+      "digestivo",
+      "ansiolítico",
+      "antifúngico",
+      "analgésico"
+    ],
     "preparacion": "Infusión: tallos frescos o secos en agua caliente. Aceite esencial en difusor.",
     "contraindicaciones": "Aceite esencial irritante. Evitar en embarazo en dosis medicinales.",
     "parte_usada": "tallos y hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Cymbopogon_citratus_-_Lemongrass.jpg/800px-Cymbopogon_citratus_-_Lemongrass.jpg"
   },
   {
-    "id": 155,
+    "id": 151,
     "nombre_comun": "Vetiver",
     "nombre_cientifico": "Chrysopogon zizanioides",
     "familia": "Poaceae",
-    "usos": ["ansiolítico", "aromaterapia", "antiestrés", "antiséptico"],
+    "usos": [
+      "ansiolítico",
+      "aromaterapia",
+      "antiestrés",
+      "antiséptico"
+    ],
     "preparacion": "Aceite esencial en difusor o diluido al 2%. Infusión de raíz.",
     "contraindicaciones": "Generalmente seguro. Aceite esencial puro puede irritar la piel.",
     "parte_usada": "raíz",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Vetiver_grass.jpg/800px-Vetiver_grass.jpg"
   },
   {
-    "id": 156,
+    "id": 152,
     "nombre_comun": "Palmarosa",
     "nombre_cientifico": "Cymbopogon martinii",
     "familia": "Poaceae",
-    "usos": ["antibacteriano", "antifúngico", "piel", "ansiolítico"],
+    "usos": [
+      "antibacteriano",
+      "antifúngico",
+      "piel",
+      "ansiolítico"
+    ],
     "preparacion": "Aceite esencial diluido al 1-2% para piel. Difusor ambiental.",
     "contraindicaciones": "Diluir siempre antes de aplicar. Evitar en embarazo en uso extenso.",
     "parte_usada": "hojas y flores (aceite esencial)",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Cymbopogon_martinii.jpg/800px-Cymbopogon_martinii.jpg"
   },
   {
-    "id": 157,
+    "id": 153,
     "nombre_comun": "Cebolla",
     "nombre_cientifico": "Allium cepa",
     "familia": "Amaryllidaceae",
-    "usos": ["antibacteriano", "antioxidante", "cardiovascular", "antialérgico"],
+    "usos": [
+      "antibacteriano",
+      "antioxidante",
+      "cardiovascular",
+      "antialérgico"
+    ],
     "preparacion": "Cruda en ensaladas. Jarabe: cebolla con miel para tos. Jugo.",
     "contraindicaciones": "Puede irritar el estómago. Precaución con anticoagulantes en altas dosis.",
     "parte_usada": "bulbo",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Onions.jpg/800px-Onions.jpg"
   },
   {
-    "id": 158,
+    "id": 154,
     "nombre_comun": "Puerro",
     "nombre_cientifico": "Allium ampeloprasum",
     "familia": "Amaryllidaceae",
-    "usos": ["nutritivo", "digestivo", "diurético", "cardiovascular"],
+    "usos": [
+      "nutritivo",
+      "digestivo",
+      "diurético",
+      "cardiovascular"
+    ],
     "preparacion": "En sopas y guisos. Jugo fresco. Cocido al vapor.",
     "contraindicaciones": "Generalmente seguro. Puede causar gases en exceso.",
     "parte_usada": "bulbo y hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Leek_on_white.jpg/800px-Leek_on_white.jpg"
   },
   {
-    "id": 159,
+    "id": 155,
     "nombre_comun": "Cebollín",
     "nombre_cientifico": "Allium schoenoprasum",
     "familia": "Amaryllidaceae",
-    "usos": ["digestivo", "antibacteriano", "nutritivo", "antioxidante"],
+    "usos": [
+      "digestivo",
+      "antibacteriano",
+      "nutritivo",
+      "antioxidante"
+    ],
     "preparacion": "Hojas frescas en alimentos. Infusión ligera.",
     "contraindicaciones": "Generalmente seguro. Evitar en exceso en problemas gastrointestinales.",
     "parte_usada": "hojas y bulbo",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Chives_moist.jpg/800px-Chives_moist.jpg"
   },
   {
-    "id": 160,
+    "id": 156,
     "nombre_comun": "Ajo Negro",
     "nombre_cientifico": "Allium sativum (fermentado)",
     "familia": "Amaryllidaceae",
-    "usos": ["antioxidante potenciado", "cardiovascular", "inmunoestimulante", "antiinflamatorio"],
+    "usos": [
+      "antioxidante potenciado",
+      "cardiovascular",
+      "inmunoestimulante",
+      "antiinflamatorio"
+    ],
     "preparacion": "1-3 dientes al día directamente o en alimentos.",
     "contraindicaciones": "Menor efecto anticoagulante que el ajo fresco. Bien tolerado.",
     "parte_usada": "bulbo fermentado",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Black_garlic.jpg/800px-Black_garlic.jpg"
   },
   {
-    "id": 161,
+    "id": 157,
     "nombre_comun": "Borraja Mexicana",
     "nombre_cientifico": "Tithonia diversifolia",
     "familia": "Asteraceae",
-    "usos": ["antiinflamatorio", "antidiabético", "antifúngico", "digestivo"],
+    "usos": [
+      "antiinflamatorio",
+      "antidiabético",
+      "antifúngico",
+      "digestivo"
+    ],
     "preparacion": "Infusión de hojas: 2-3 hojas en 250ml.",
     "contraindicaciones": "Evitar en embarazo. Alergia en Asteraceae.",
     "parte_usada": "hojas y flores",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tithonia_diversifolia.jpg/800px-Tithonia_diversifolia.jpg"
   },
   {
-    "id": 162,
+    "id": 158,
     "nombre_comun": "Planta del Asma",
     "nombre_cientifico": "Plectranthus barbatus",
     "familia": "Lamiaceae",
-    "usos": ["broncodilatador", "digestivo", "hipotensor", "antiinflamatorio"],
+    "usos": [
+      "broncodilatador",
+      "digestivo",
+      "hipotensor",
+      "antiinflamatorio"
+    ],
     "preparacion": "Infusión de hojas: 1-2 hojas en 250ml. 2 veces al día.",
     "contraindicaciones": "Evitar con antihipertensivos y anticoagulantes. No usar en embarazo.",
     "parte_usada": "hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Plectranthus_barbatus.jpg/800px-Plectranthus_barbatus.jpg"
   },
   {
-    "id": 163,
+    "id": 159,
     "nombre_comun": "Hierba del Golpe",
     "nombre_cientifico": "Ageratina pichinchensis",
     "familia": "Asteraceae",
-    "usos": ["cicatrizante", "antiinflamatorio", "antifúngico", "piel"],
+    "usos": [
+      "cicatrizante",
+      "antiinflamatorio",
+      "antifúngico",
+      "piel"
+    ],
     "preparacion": "Infusión para compresas. Polvo de planta seca en heridas.",
     "contraindicaciones": "Principalmente uso tópico. Evitar en embarazo en uso interno.",
     "parte_usada": "partes aéreas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ageratina_pichinchensis.jpg/800px-Ageratina_pichinchensis.jpg"
   },
   {
-    "id": 164,
+    "id": 160,
     "nombre_comun": "Chipilín",
     "nombre_cientifico": "Crotalaria longirostrata",
     "familia": "Fabaceae",
-    "usos": ["nutritivo", "galactogogo", "antiinflamatorio", "hierro vegetal"],
+    "usos": [
+      "nutritivo",
+      "galactogogo",
+      "antiinflamatorio",
+      "hierro vegetal"
+    ],
     "preparacion": "Hojas cocinadas en sopas y tamales. Uso culinario.",
     "contraindicaciones": "Contiene alcaloides pirrolizidínicos: no consumir en exceso prolongado.",
     "parte_usada": "hojas y semillas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Crotalaria_longirostrata.jpg/800px-Crotalaria_longirostrata.jpg"
   },
   {
-    "id": 165,
+    "id": 161,
     "nombre_comun": "Chaya",
     "nombre_cientifico": "Cnidoscolus aconitifolius",
     "familia": "Euphorbiaceae",
-    "usos": ["nutritivo", "antidiabético", "antioxidante", "digestivo"],
+    "usos": [
+      "nutritivo",
+      "antidiabético",
+      "antioxidante",
+      "digestivo"
+    ],
     "preparacion": "Hojas cocidas (nunca crudas): en jugos, sopas o guisos.",
     "contraindicaciones": "Nunca consumir cruda (ácido cianhídrico). Cocinar mínimo 5 minutos.",
     "parte_usada": "hojas (cocidas)",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cnidoscolus_aconitifolius.jpg/800px-Cnidoscolus_aconitifolius.jpg"
   },
   {
-    "id": 166,
+    "id": 162,
     "nombre_comun": "Hoja de Laurel",
     "nombre_cientifico": "Laurus nobilis",
     "familia": "Lauraceae",
-    "usos": ["digestivo", "antiespasmódico", "antibacteriano", "antifúngico"],
+    "usos": [
+      "digestivo",
+      "antiespasmódico",
+      "antibacteriano",
+      "antifúngico"
+    ],
     "preparacion": "Infusión: 2-3 hojas en 250ml. En cocina como condimento.",
     "contraindicaciones": "Las hojas enteras pueden ser un riesgo de asfixia. Aceite esencial potente.",
     "parte_usada": "hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Laurus_nobilis_leaves.jpg/800px-Laurus_nobilis_leaves.jpg"
   },
   {
-    "id": 167,
+    "id": 163,
     "nombre_comun": "Alcaravea",
     "nombre_cientifico": "Carum carvi",
     "familia": "Apiaceae",
-    "usos": ["digestivo", "carminativo", "galactogogo", "antiespasmódico"],
+    "usos": [
+      "digestivo",
+      "carminativo",
+      "galactogogo",
+      "antiespasmódico"
+    ],
     "preparacion": "Infusión de semillas: 1 cucharadita en 250ml. En pan y cocina.",
     "contraindicaciones": "Alergia posible en Apiaceae. Evitar aceite esencial en embarazo.",
     "parte_usada": "frutos (semillas)",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Carum_carvi_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-178.jpg/800px-Carum_carvi_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-178.jpg"
   },
   {
-    "id": 168,
+    "id": 164,
     "nombre_comun": "Eneldo",
     "nombre_cientifico": "Anethum graveolens",
     "familia": "Apiaceae",
-    "usos": ["digestivo", "carminativo", "galactogogo", "ansiolítico"],
+    "usos": [
+      "digestivo",
+      "carminativo",
+      "galactogogo",
+      "ansiolítico"
+    ],
     "preparacion": "Infusión de semillas: 1 cucharadita en 250ml. Hojas frescas en ensaladas.",
     "contraindicaciones": "Evitar aceite esencial en embarazo. Alergia posible en Apiaceae.",
     "parte_usada": "semillas y hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Anethum_graveolens_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-012.jpg/800px-Anethum_graveolens_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-012.jpg"
   },
   {
-    "id": 169,
+    "id": 165,
     "nombre_comun": "Mejorana",
     "nombre_cientifico": "Origanum majorana",
     "familia": "Lamiaceae",
-    "usos": ["digestivo", "antiespasmódico", "ansiolítico", "antifúngico"],
+    "usos": [
+      "digestivo",
+      "antiespasmódico",
+      "ansiolítico",
+      "antifúngico"
+    ],
     "preparacion": "Infusión: 1 cucharadita de hojas secas en 250ml.",
     "contraindicaciones": "Evitar aceite esencial en embarazo. No exceder dosis medicinales.",
     "parte_usada": "hojas y flores",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Origanum_majorana_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-098.jpg/800px-Origanum_majorana_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-098.jpg"
   },
   {
-    "id": 170,
+    "id": 166,
     "nombre_comun": "Ajedrea",
     "nombre_cientifico": "Satureja montana",
     "familia": "Lamiaceae",
-    "usos": ["antibacteriano", "antifúngico", "digestivo", "antidiarreico"],
+    "usos": [
+      "antibacteriano",
+      "antifúngico",
+      "digestivo",
+      "antidiarreico"
+    ],
     "preparacion": "Infusión: 1 cucharadita de planta seca en 250ml.",
     "contraindicaciones": "Evitar aceite esencial en embarazo. Uso culinario seguro.",
     "parte_usada": "hojas y flores",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Satureja_montana.jpg/800px-Satureja_montana.jpg"
   },
   {
-    "id": 171,
+    "id": 167,
     "nombre_comun": "Poleo",
     "nombre_cientifico": "Mentha pulegium",
     "familia": "Lamiaceae",
-    "usos": ["digestivo", "carminativo", "antiespasmódico", "insectífugo"],
+    "usos": [
+      "digestivo",
+      "carminativo",
+      "antiespasmódico",
+      "insectífugo"
+    ],
     "preparacion": "Infusión muy débil: poca cantidad de planta seca en 250ml.",
     "contraindicaciones": "Altamente tóxico en dosis altas. El aceite esencial puede ser mortal. Evitar en embarazo.",
     "parte_usada": "hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mentha_pulegium.jpg/800px-Mentha_pulegium.jpg"
   },
   {
-    "id": 172,
+    "id": 168,
     "nombre_comun": "Toronjil Morado",
     "nombre_cientifico": "Prunella vulgaris",
     "familia": "Lamiaceae",
-    "usos": ["antiviral", "antibacteriano", "antiinflamatorio", "herpes"],
+    "usos": [
+      "antiviral",
+      "antibacteriano",
+      "antiinflamatorio",
+      "herpes"
+    ],
     "preparacion": "Infusión: 2 cucharaditas en 250ml. Aplicación tópica en herpes.",
     "contraindicaciones": "Generalmente seguro. Evitar en altas dosis durante embarazo.",
     "parte_usada": "partes aéreas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Prunella_vulgaris.jpg/800px-Prunella_vulgaris.jpg"
   },
   {
-    "id": 173,
+    "id": 169,
     "nombre_comun": "Betónica",
     "nombre_cientifico": "Stachys betonica",
     "familia": "Lamiaceae",
-    "usos": ["nervioso", "migraña", "digestivo", "antiespasmódico"],
+    "usos": [
+      "nervioso",
+      "migraña",
+      "digestivo",
+      "antiespasmódico"
+    ],
     "preparacion": "Infusión: 1 cucharadita de planta seca en 250ml.",
     "contraindicaciones": "Evitar en embarazo. Puede causar náuseas en dosis altas.",
     "parte_usada": "partes aéreas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Betonica_officinalis_flowers.jpg/800px-Betonica_officinalis_flowers.jpg"
   },
   {
-    "id": 174,
+    "id": 170,
     "nombre_comun": "Escutelaria",
     "nombre_cientifico": "Scutellaria lateriflora",
     "familia": "Lamiaceae",
-    "usos": ["ansiolítico", "sedante", "nervioso", "antiespasmódico"],
+    "usos": [
+      "ansiolítico",
+      "sedante",
+      "nervioso",
+      "antiespasmódico"
+    ],
     "preparacion": "Tintura: 2-4ml 3 veces al día. Infusión: 1-2 cucharaditas en 250ml.",
     "contraindicaciones": "Puede ser hepatotóxica si está adulterada. Evitar con sedantes y embarazo.",
     "parte_usada": "partes aéreas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Scutellaria_lateriflora.jpg/800px-Scutellaria_lateriflora.jpg"
   },
   {
-    "id": 175,
+    "id": 171,
     "nombre_comun": "Agripalma",
     "nombre_cientifico": "Leonurus cardiaca",
     "familia": "Lamiaceae",
-    "usos": ["cardiotónico", "ansiolítico", "regulador menstrual", "hipotensor"],
+    "usos": [
+      "cardiotónico",
+      "ansiolítico",
+      "regulador menstrual",
+      "hipotensor"
+    ],
     "preparacion": "Infusión: 1 cucharadita en 250ml. Tintura: 2-4ml al día.",
     "contraindicaciones": "Evitar en embarazo (oxitócico). Interacciones con cardiotónicos y anticoagulantes.",
     "parte_usada": "partes aéreas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Leonurus_cardiaca_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-081.jpg/800px-Leonurus_cardiaca_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-081.jpg"
   },
   {
-    "id": 176,
+    "id": 172,
     "nombre_comun": "Melotomate",
     "nombre_cientifico": "Solanum mammosum",
     "familia": "Solanaceae",
-    "usos": ["insecticida natural", "antifúngico", "uso tópico en piel"],
+    "usos": [
+      "insecticida natural",
+      "antifúngico",
+      "uso tópico en piel"
+    ],
     "preparacion": "Extracto del fruto para uso externo. Solo uso tópico.",
     "contraindicaciones": "Tóxico si se ingiere. Solo uso externo bajo supervisión.",
     "parte_usada": "fruto (externo)",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Solanum_mammosum_2.jpg/800px-Solanum_mammosum_2.jpg"
   },
   {
-    "id": 177,
+    "id": 173,
     "nombre_comun": "Flor de Manita",
     "nombre_cientifico": "Chiranthodendron pentadactylon",
     "familia": "Malvaceae",
-    "usos": ["cardiotónico", "ansiolítico", "antiespasmódico", "hipotensor"],
+    "usos": [
+      "cardiotónico",
+      "ansiolítico",
+      "antiespasmódico",
+      "hipotensor"
+    ],
     "preparacion": "Infusión: 1 flor en 250ml de agua caliente.",
     "contraindicaciones": "Evitar en hipotensión severa. Precaución en cardiopatías.",
     "parte_usada": "flores",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Chiranthodendron_pentadactylon.jpg/800px-Chiranthodendron_pentadactylon.jpg"
   },
   {
-    "id": 178,
+    "id": 174,
     "nombre_comun": "Tepozán",
     "nombre_cientifico": "Buddleja cordata",
     "familia": "Scrophulariaceae",
-    "usos": ["antiinflamatorio", "cicatrizante", "antifebril", "antipirético"],
+    "usos": [
+      "antiinflamatorio",
+      "cicatrizante",
+      "antifebril",
+      "antipirético"
+    ],
     "preparacion": "Infusión de hojas: 2 cucharaditas en 250ml. Compresas externas.",
     "contraindicaciones": "Evitar en embarazo. Uso externo más frecuente.",
     "parte_usada": "hojas y corteza",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Buddleja_cordata.jpg/800px-Buddleja_cordata.jpg"
   },
   {
-    "id": 179,
+    "id": 175,
     "nombre_comun": "Palo Azul",
     "nombre_cientifico": "Eysenhardtia polystachya",
     "familia": "Fabaceae",
-    "usos": ["diurético", "antiinflamatorio renal", "antiséptico urinario", "cálculos"],
+    "usos": [
+      "diurético",
+      "antiinflamatorio renal",
+      "antiséptico urinario",
+      "cálculos"
+    ],
     "preparacion": "Decocción de madera: 1 cucharada de astillas en 500ml hervir 15 minutos.",
     "contraindicaciones": "Evitar en insuficiencia renal grave. No usar en embarazo.",
     "parte_usada": "madera del tronco",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Eysenhardtia_polystachya.jpg/800px-Eysenhardtia_polystachya.jpg"
   },
   {
-    "id": 180,
+    "id": 176,
     "nombre_comun": "Huizache",
     "nombre_cientifico": "Vachellia farnesiana",
     "familia": "Fabaceae",
-    "usos": ["astringente", "antidiarreico", "cicatrizante", "antibacteriano"],
+    "usos": [
+      "astringente",
+      "antidiarreico",
+      "cicatrizante",
+      "antibacteriano"
+    ],
     "preparacion": "Decocción de corteza: 2 cucharadas en 500ml. Uso externo en heridas.",
     "contraindicaciones": "Evitar en embarazo. Uso interno moderado.",
     "parte_usada": "corteza, flores y frutos",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Vachellia_farnesiana.jpg/800px-Vachellia_farnesiana.jpg"
   },
   {
-    "id": 181,
+    "id": 177,
     "nombre_comun": "Copal",
     "nombre_cientifico": "Bursera copallifera",
     "familia": "Burseraceae",
-    "usos": ["antiséptico", "antiinflamatorio", "aromaterapia", "cicatrizante"],
+    "usos": [
+      "antiséptico",
+      "antiinflamatorio",
+      "aromaterapia",
+      "cicatrizante"
+    ],
     "preparacion": "Resina quemada como incienso. Resina diluida en aceite para uso tópico.",
     "contraindicaciones": "El humo en exceso puede irritar vías respiratorias. Uso tópico seguro.",
     "parte_usada": "resina",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bursera_copallifera.jpg/800px-Bursera_copallifera.jpg"
   },
   {
-    "id": 182,
+    "id": 178,
     "nombre_comun": "Cancerina",
     "nombre_cientifico": "Hippocratea excelsa",
     "familia": "Celastraceae",
-    "usos": ["antitumoral investigado", "antiinflamatorio", "digestivo"],
+    "usos": [
+      "antitumoral investigado",
+      "antiinflamatorio",
+      "digestivo"
+    ],
     "preparacion": "Decocción de corteza: 1 cucharada en 500ml hervir 10 minutos.",
     "contraindicaciones": "Uso bajo supervisión. Evitar en embarazo.",
     "parte_usada": "corteza",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Hippocratea_excelsa.jpg/800px-Hippocratea_excelsa.jpg"
   },
   {
-    "id": 183,
+    "id": 179,
     "nombre_comun": "Hierba del Toro",
     "nombre_cientifico": "Brickelia veronicaefolia",
     "familia": "Asteraceae",
-    "usos": ["antidiabético", "diurético", "digestivo", "antifebril"],
+    "usos": [
+      "antidiabético",
+      "diurético",
+      "digestivo",
+      "antifebril"
+    ],
     "preparacion": "Infusión: 1 cucharadita de hojas secas en 250ml.",
     "contraindicaciones": "Monitorear glucosa. Evitar en embarazo.",
     "parte_usada": "hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Brickellia_veronicaefolia.jpg/800px-Brickellia_veronicaefolia.jpg"
   },
   {
-    "id": 184,
+    "id": 180,
     "nombre_comun": "Tronadora Amarilla",
     "nombre_cientifico": "Galphimia glauca",
     "familia": "Malpighiaceae",
-    "usos": ["ansiolítico", "antialérgico", "sedante suave", "antiasmático"],
+    "usos": [
+      "ansiolítico",
+      "antialérgico",
+      "sedante suave",
+      "antiasmático"
+    ],
     "preparacion": "Extracto estandarizado. Infusión de hojas: 1 cucharadita en 250ml.",
     "contraindicaciones": "Evitar con sedantes y ansiolíticos farmacológicos. Precaución en embarazo.",
     "parte_usada": "hojas y flores",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Galphimia_glauca.jpg/800px-Galphimia_glauca.jpg"
   },
   {
-    "id": 185,
+    "id": 181,
     "nombre_comun": "Zoapatle",
     "nombre_cientifico": "Montanoa tomentosa",
     "familia": "Asteraceae",
-    "usos": ["regulador menstrual", "oxitócico", "dismenorrea", "parto"],
+    "usos": [
+      "regulador menstrual",
+      "oxitócico",
+      "dismenorrea",
+      "parto"
+    ],
     "preparacion": "Infusión de hojas: 2-3 hojas en 250ml. Solo bajo supervisión.",
     "contraindicaciones": "Contraindicado en embarazo (abortivo). Solo bajo supervisión médica.",
     "parte_usada": "hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Montanoa_tomentosa.jpg/800px-Montanoa_tomentosa.jpg"
   },
   {
-    "id": 186,
+    "id": 182,
     "nombre_comun": "Árbol de la Vida",
     "nombre_cientifico": "Thuja occidentalis",
     "familia": "Cupressaceae",
-    "usos": ["inmunoestimulante", "antiviral", "verrugas", "expectorante"],
+    "usos": [
+      "inmunoestimulante",
+      "antiviral",
+      "verrugas",
+      "expectorante"
+    ],
     "preparacion": "Extracto homeopático o fitoterapéutico. Solo bajo supervisión.",
     "contraindicaciones": "Tóxico en dosis altas. Aceite esencial altamente tóxico. Supervisión médica.",
     "parte_usada": "hojas (ramas)",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Thuja_occidentalis_Rheingold.jpg/800px-Thuja_occidentalis_Rheingold.jpg"
   },
   {
-    "id": 187,
+    "id": 183,
     "nombre_comun": "Ciprés",
     "nombre_cientifico": "Cupressus sempervirens",
     "familia": "Cupressaceae",
-    "usos": ["venoso", "varices", "antiespasmódico", "antiséptico"],
+    "usos": [
+      "venoso",
+      "varices",
+      "antiespasmódico",
+      "antiséptico"
+    ],
     "preparacion": "Aceite esencial diluido en masajes. Infusión de ramas jóvenes.",
     "contraindicaciones": "Aceite esencial: diluir siempre. Evitar en embarazo y niños.",
     "parte_usada": "ramas y conos",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Cupressus_sempervirens_trees.jpg/800px-Cupressus_sempervirens_trees.jpg"
   },
   {
-    "id": 188,
+    "id": 184,
     "nombre_comun": "Pino",
     "nombre_cientifico": "Pinus sylvestris",
     "familia": "Pinaceae",
-    "usos": ["expectorante", "antiséptico respiratorio", "antiinflamatorio", "circulatorio"],
+    "usos": [
+      "expectorante",
+      "antiséptico respiratorio",
+      "antiinflamatorio",
+      "circulatorio"
+    ],
     "preparacion": "Inhalación de vapor con agujas. Aceite esencial muy diluido en tórax.",
     "contraindicaciones": "No usar aceite esencial en niños. Puede causar irritación.",
     "parte_usada": "agujas, yemas y resina",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Pinus_sylvestris_young_tree.jpg/800px-Pinus_sylvestris_young_tree.jpg"
   },
   {
-    "id": 189,
+    "id": 185,
     "nombre_comun": "Abeto",
     "nombre_cientifico": "Abies alba",
     "familia": "Pinaceae",
-    "usos": ["expectorante", "antiséptico", "tónico", "reumatismo"],
+    "usos": [
+      "expectorante",
+      "antiséptico",
+      "tónico",
+      "reumatismo"
+    ],
     "preparacion": "Aceite esencial diluido en masajes. Baños con agujas.",
     "contraindicaciones": "Diluir aceite esencial. Evitar en embarazo.",
     "parte_usada": "agujas y yemas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Abies_alba_foliage.jpg/800px-Abies_alba_foliage.jpg"
   },
   {
-    "id": 190,
+    "id": 186,
     "nombre_comun": "Enebrina",
     "nombre_cientifico": "Juniperus oxycedrus",
     "familia": "Cupressaceae",
-    "usos": ["piel", "antiséptico", "antiparasitario", "antifúngico"],
+    "usos": [
+      "piel",
+      "antiséptico",
+      "antiparasitario",
+      "antifúngico"
+    ],
     "preparacion": "Aceite de cade tópico para psoriasis y eccema. Muy diluido.",
     "contraindicaciones": "Solo uso tópico. Diluir siempre. Evitar en embarazo.",
     "parte_usada": "madera (aceite de cade)",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Juniperus_oxycedrus.jpg/800px-Juniperus_oxycedrus.jpg"
   },
   {
-    "id": 191,
+    "id": 187,
     "nombre_comun": "Acacia",
     "nombre_cientifico": "Acacia senegal",
     "familia": "Fabaceae",
-    "usos": ["emoliente", "prebiótico", "digestivo", "protector mucosas"],
+    "usos": [
+      "emoliente",
+      "prebiótico",
+      "digestivo",
+      "protector mucosas"
+    ],
     "preparacion": "Goma arábiga: 1 cucharadita en agua. Suplemento en polvo.",
     "contraindicaciones": "Puede causar gases al inicio. Generalmente seguro.",
     "parte_usada": "goma (resina)",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Acacia_senegal_-_Flickr.jpg/800px-Acacia_senegal_-_Flickr.jpg"
   },
   {
-    "id": 192,
+    "id": 188,
     "nombre_comun": "Psyllium",
     "nombre_cientifico": "Plantago ovata",
     "familia": "Plantaginaceae",
-    "usos": ["laxante", "prebiótico", "colesterol", "diabetes"],
+    "usos": [
+      "laxante",
+      "prebiótico",
+      "colesterol",
+      "diabetes"
+    ],
     "preparacion": "Cáscara de semilla: 1-2 cucharaditas en 250ml agua, tomar inmediatamente.",
     "contraindicaciones": "Tomar siempre con abundante agua. Puede causar obstrucción si no hay suficiente líquido.",
     "parte_usada": "cáscara de semillas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Psyllium_husk.jpg/800px-Psyllium_husk.jpg"
   },
   {
-    "id": 193,
+    "id": 189,
     "nombre_comun": "Linaza",
     "nombre_cientifico": "Linum usitatissimum",
     "familia": "Linaceae",
-    "usos": ["laxante suave", "omega-3", "colesterol", "piel"],
+    "usos": [
+      "laxante suave",
+      "omega-3",
+      "colesterol",
+      "piel"
+    ],
     "preparacion": "Semillas molidas: 1-2 cucharadas en batidos. Aceite: 1 cucharada al día.",
     "contraindicaciones": "Tomar con agua abundante. Puede interactuar con medicamentos si se toman juntos.",
     "parte_usada": "semillas y aceite",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Linseed_open.jpg/800px-Linseed_open.jpg"
   },
   {
-    "id": 194,
+    "id": 190,
     "nombre_comun": "Chía",
     "nombre_cientifico": "Salvia hispanica",
     "familia": "Lamiaceae",
-    "usos": ["omega-3", "fibra", "energizante", "digestivo"],
+    "usos": [
+      "omega-3",
+      "fibra",
+      "energizante",
+      "digestivo"
+    ],
     "preparacion": "1-2 cucharadas en agua, yogur o batidos. Dejar reposar 10 minutos.",
     "contraindicaciones": "Tomar con agua abundante. Precaución con anticoagulantes.",
     "parte_usada": "semillas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Chia_Seeds.jpg/800px-Chia_Seeds.jpg"
   },
   {
-    "id": 195,
+    "id": 191,
     "nombre_comun": "Amaranto",
     "nombre_cientifico": "Amaranthus hypochondriacus",
     "familia": "Amaranthaceae",
-    "usos": ["nutritivo", "proteína vegetal", "antioxidante", "digestivo"],
+    "usos": [
+      "nutritivo",
+      "proteína vegetal",
+      "antioxidante",
+      "digestivo"
+    ],
     "preparacion": "Semillas cocidas como cereal. Harina en recetas. Hojas en ensaladas.",
     "contraindicaciones": "Rico en oxalatos: moderar en cálculos renales. Generalmente muy seguro.",
     "parte_usada": "semillas y hojas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Amaranth_var_Plainsman.jpg/800px-Amaranth_var_Plainsman.jpg"
   },
   {
-    "id": 196,
+    "id": 192,
     "nombre_comun": "Quinoa",
     "nombre_cientifico": "Chenopodium quinoa",
     "familia": "Amaranthaceae",
-    "usos": ["nutritivo", "proteína completa", "sin gluten", "antioxidante"],
+    "usos": [
+      "nutritivo",
+      "proteína completa",
+      "sin gluten",
+      "antioxidante"
+    ],
     "preparacion": "Semillas cocidas como cereal. Lavar bien antes de cocinar.",
     "contraindicaciones": "Lavar para eliminar saponinas. Puede causar alergias en personas sensibles.",
     "parte_usada": "semillas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Chenopodium_quinoa0.jpg/800px-Chenopodium_quinoa0.jpg"
   },
   {
-    "id": 197,
+    "id": 193,
     "nombre_comun": "Kiwicha",
     "nombre_cientifico": "Amaranthus caudatus",
     "familia": "Amaranthaceae",
-    "usos": ["nutritivo", "proteína vegetal", "calcio", "energizante"],
+    "usos": [
+      "nutritivo",
+      "proteína vegetal",
+      "calcio",
+      "energizante"
+    ],
     "preparacion": "Semillas tostadas y molidas. Cocidas como cereal.",
     "contraindicaciones": "Generalmente seguro. Moderar en cálculos por oxalatos.",
     "parte_usada": "semillas",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Amaranthus_caudatus_flowers.jpg/800px-Amaranthus_caudatus_flowers.jpg"
   },
   {
-    "id": 198,
+    "id": 194,
     "nombre_comun": "Sacha Inchi",
     "nombre_cientifico": "Plukenetia volubilis",
     "familia": "Euphorbiaceae",
-    "usos": ["omega-3", "proteína", "antioxidante", "cardiovascular"],
+    "usos": [
+      "omega-3",
+      "proteína",
+      "antioxidante",
+      "cardiovascular"
+    ],
     "preparacion": "Semillas tostadas. Aceite: 1 cucharada al día. Polvo en batidos.",
     "contraindicaciones": "Semillas crudas pueden causar náuseas. Tostar siempre.",
     "parte_usada": "semillas y aceite",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Sacha_Inchi_2.jpg/800px-Sacha_Inchi_2.jpg"
   },
   {
-    "id": 199,
+    "id": 195,
     "nombre_comun": "Camu Camu",
     "nombre_cientifico": "Myrciaria dubia",
     "familia": "Myrtaceae",
-    "usos": ["vitamina C", "antioxidante", "inmunoestimulante", "antiviral"],
+    "usos": [
+      "vitamina C",
+      "antioxidante",
+      "inmunoestimulante",
+      "antiviral"
+    ],
     "preparacion": "Polvo: 1 cucharadita en jugos. Fruta fresca o congelada.",
     "contraindicaciones": "Muy ácido: puede erosionar esmalte dental. Moderar en gastritis.",
     "parte_usada": "fruto",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Myrciaria_dubia_fruits.jpg/800px-Myrciaria_dubia_fruits.jpg"
   },
   {
-    "id": 200,
+    "id": 196,
     "nombre_comun": "Açaí",
     "nombre_cientifico": "Euterpe oleracea",
     "familia": "Arecaceae",
-    "usos": ["antioxidante", "cardiovascular", "antiinflamatorio", "energizante"],
+    "usos": [
+      "antioxidante",
+      "cardiovascular",
+      "antiinflamatorio",
+      "energizante"
+    ],
     "preparacion": "Pulpa congelada en batidos. Polvo: 1-2 cucharaditas al día.",
     "contraindicaciones": "Puede potenciar anticoagulantes. Verificar fuente (puede estar adulterado).",
     "parte_usada": "fruto",
     "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Acai_Euterpe_oleracea.jpg/800px-Acai_Euterpe_oleracea.jpg"
+  },
+  {
+    "id": 197,
+    "nombre_comun": "Té de Kombucha",
+    "nombre_cientifico": "Symbiotic culture of bacteria and yeast",
+    "familia": "Fermentado",
+    "usos": [
+      "probiótico",
+      "digestivo",
+      "inmunoestimulante",
+      "energizante"
+    ],
+    "preparacion": "Bebida fermentada: 150-250ml al día con el estómago semivacío.",
+    "contraindicaciones": "Evitar en embarazo, inmunodeficiencia y candidiasis activa.",
+    "parte_usada": "bebida fermentada",
+    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Kombucha_Mature.jpg/800px-Kombucha_Mature.jpg"
+  },
+  {
+    "id": 198,
+    "nombre_comun": "Kéfir de Leche",
+    "nombre_cientifico": "Lactobacillus kefiri",
+    "familia": "Fermentado",
+    "usos": [
+      "probiótico",
+      "digestivo",
+      "inmunoestimulante",
+      "huesos"
+    ],
+    "preparacion": "150-250ml al día. Puede tomarse solo o en batidos.",
+    "contraindicaciones": "Precaución en intolerancia a lactosa severa. Usar kéfir de agua como alternativa.",
+    "parte_usada": "bebida fermentada",
+    "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Kefir_grains.jpg/800px-Kefir_grains.jpg"
   }
 ]
