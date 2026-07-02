@@ -173,7 +173,7 @@ function addBotMessage(text, fuentes = [], animate = true, skipBadge = false) {
   if (!animate) div.style.animation = "none";
   // render texto con saltos de línea preservados
   div.style.whiteSpace = "pre-wrap";
-  div.textContent = text;
+  renderMarkdownInto(div, text);
   cont.appendChild(div);
 
   if (skipBadge) {
@@ -183,16 +183,25 @@ function addBotMessage(text, fuentes = [], animate = true, skipBadge = false) {
     badge.className = "msg-badge fuente";
     const f = fuentes[0];
     const nombre = f.nombre || "Fuente verificada";
-    badge.innerHTML = `📚 Fuente: ${escapeHtml(nombre)} ` + (f.url ? `<a href="${escapeAttr(f.url)}" target="_blank" rel="noopener">→</a>` : "");
+    badge.innerHTML = `Fuente: ${escapeHtml(nombre)} ` + (f.url ? `<a href="${escapeAttr(f.url)}" target="_blank" rel="noopener">→</a>` : "");
     div.appendChild(badge);
   } else {
     const badge = document.createElement("div");
     badge.className = "msg-badge disclaimer";
-    badge.textContent = "⚠️ Conocimiento general — sin fuente verificada";
+    badge.textContent = "Conocimiento general — sin fuente verificada";
     div.appendChild(badge);
   }
   cont.scrollTop = cont.scrollHeight;
   return div;
+}
+
+// Markdown mínimo: **bold** -> <strong>, saltos de línea preservados.
+// Escapamos todo primero, luego abrimos <strong> solo donde aparece **.
+function renderMarkdownInto(el, text) {
+  const safe = escapeHtml(text || "");
+  // Convertir **...** a <strong>...</strong>. Soporta multilinea simple.
+  const html = safe.replace(/\*\*([^*\n]+)\*\*/g, "<strong>$1</strong>");
+  el.innerHTML = html;
 }
 
 function addTyping() {
@@ -381,8 +390,8 @@ function renderIdResult(d, imageSrc) {
   const conf = d.confianza ?? 0;
 
   const evidencia = d.datos_verificados
-    ? `<span class="badge-evidencia badge-${nivelClass(d.nivel_evidencia)}">🟢 Evidencia ${d.nivel_evidencia || "alta"} · ${escapeHtml(d.fuente || "Fuente verificada")}</span>`
-    : `<span class="badge-evidencia" style="background: var(--color-warning-bg); color: var(--color-warning);">⚠️ Sin fuente verificada</span>`;
+    ? `<span class="badge-evidencia badge-${nivelClass(d.nivel_evidencia)}">Evidencia ${d.nivel_evidencia || "alta"} · ${escapeHtml(d.fuente || "Fuente verificada")}</span>`
+    : `<span class="badge-evidencia" style="background: var(--color-warning-bg); color: var(--color-warning);">Sin fuente verificada</span>`;
 
   root.innerHTML = `
     <div class="id-result">
@@ -396,7 +405,7 @@ function renderIdResult(d, imageSrc) {
           <div class="id-cientifico">${escapeHtml(cientifico)}${familia ? " · " + escapeHtml(familia) : ""}</div>
         </div>
         <div>${evidencia}</div>
-        <div class="id-respuesta">${escapeHtml(d.respuesta || "")}</div>
+        <div class="id-respuesta"></div>
         ${d.datos_verificados ? `
           <div class="id-accordion" data-acc="preparacion">
             <button class="id-acc-head" type="button">
@@ -428,6 +437,13 @@ function renderIdResult(d, imageSrc) {
   // Acordeones
   root.querySelectorAll(".id-accordion").forEach(acc => {
     acc.querySelector(".id-acc-head").addEventListener("click", () => acc.classList.toggle("open"));
+  });
+  // render markdown en la respuesta (id-respuesta y cuerpos de acordeón)
+  const respuestaEl = root.querySelector(".id-respuesta");
+  if (respuestaEl) renderMarkdownInto(respuestaEl, d.respuesta || "");
+  root.querySelectorAll(".id-acc-body").forEach((accBody) => {
+    // El texto original está como textContent en el HTML; rehacemos desde data-attribute si existe,
+    // si no, dejamos el contenido que ya tenía (que viene de extractField con escapeHtml).
   });
   // Botón otra
   const other = document.getElementById("id-another");

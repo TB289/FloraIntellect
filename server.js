@@ -337,7 +337,6 @@ app.post("/identificar", idLimit, async (req, res) => {
       headers: { "Api-Key": PLANTID_KEY, "Content-Type": "application/json" },
       body: JSON.stringify({
         images: [`data:${tipo};base64,${imagen}`],
-        similar_images: false,
         classification_level: "species"
       })
     });
