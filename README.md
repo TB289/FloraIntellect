@@ -31,7 +31,7 @@ En Latinoamérica, millones de personas usan plantas medicinales todos los días
          └───────┬─────────────┘     Plants of the World Online
                  │ contexto RAG
          ┌───────▼────────┐
-         │  LLM (Groq /   │  ← humaniza, no inventa (instrucción explícita)
+         │  LLM (Grok /   │  ← humaniza, no inventa (instrucción explícita)
          │  Claude Sonnet)│
          └───────┬────────┘
                  │
