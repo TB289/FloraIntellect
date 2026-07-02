@@ -56,7 +56,7 @@ En Latinoamérica, millones de personas usan plantas medicinales todos los días
 | Frontend | HTML + CSS + JS vanilla (sin frameworks) |
 | Backend | Node.js + Express |
 | Identificación | [Plant.id API v3](https://plant.id/api) |
-| LLM chat | Groq (Llama 3.3 70B) — switchable a Anthropic Claude |
+| LLM chat | Grok or (Llama 3.3 70B) — switchable a Anthropic Claude |
 | Fotos | Pixabay API (opcional) |
 | Datos | JSON estático curado |
 
@@ -83,7 +83,7 @@ Abrí **http://localhost:3030**.
 |----------|-----------|-------------|
 | `PLANTID_KEY` | sí (para /identificar) | API key de plant.id |
 | `LLM_PROVIDER` | sí (para /chat real) | `groq` o `anthropic` |
-| `GROQ_API_KEY` | si LLM_PROVIDER=groq | console.groq.com → gratis |
+| `GROK_API_KEY` | si LLM_PROVIDER=groq | console.groq.com → gratis |
 | `ANTHROPIC_API_KEY` | si LLM_PROVIDER=anthropic | console.anthropic.com |
 | `PIXABAY_API_KEY` | no | Para fotos de referencia |
 | `PORT` | no | Default 3030 |
@@ -145,12 +145,6 @@ Cada una con: usos medicinales, parte usada, preparación, dosis, contraindicaci
 ## ⚕️ Disclaimer médico
 
 La información de FloraIntellect tiene **fines exclusivamente educativos**. Las plantas con datos verificados provienen de fuentes científicas (OMS, TRAMIL), pero esta herramienta **no reemplaza la consulta con un profesional de salud**. Si estás embarazada, lactando, tomando medicación, o tenés alguna condición médica, consultá a un profesional antes de consumir cualquier planta medicinal.
-
----
-
-## Equipo
-
-Derek González — ExpoKinal 2026
 
 ---
 
